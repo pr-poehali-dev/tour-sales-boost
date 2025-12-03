@@ -8,10 +8,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-              <Icon name="Plane" className="text-white" size={24} />
+              <Icon name="Mountain" className="text-white" size={24} />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              ТурМир
+              Дикая Камчатка
             </span>
           </div>
           <nav className="hidden md:flex gap-6">

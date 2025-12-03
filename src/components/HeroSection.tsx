@@ -21,10 +21,10 @@ const HeroSection = ({ date, setDate, searchQuery, setSearchQuery }: HeroSection
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Путешествия вашей мечты
+            Дикая Камчатка
           </h1>
           <p className="text-xl text-muted-foreground mb-12">
-            Откройте для себя лучшие направления по всему миру
+            Вулканы, гейзеры, медведи и нетронутая природа Дальнего Востока
           </p>
 
           <Card className="backdrop-blur-sm bg-white/90 shadow-2xl animate-scale-in">
@@ -34,7 +34,7 @@ const HeroSection = ({ date, setDate, searchQuery, setSearchQuery }: HeroSection
                   <div className="relative">
                     <Icon name="Search" className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground" size={20} />
                     <Input
-                      placeholder="Куда хотите поехать?"
+                      placeholder="Какой тур ищете?"
                       className="pl-10 h-12"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}

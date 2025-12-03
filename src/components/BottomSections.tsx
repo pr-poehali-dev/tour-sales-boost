@@ -69,7 +69,7 @@ const BottomSections = ({ reviews }: BottomSectionsProps) => {
                 <div className="bg-gradient-to-br from-primary to-secondary p-12 text-white flex flex-col justify-center">
                   <h2 className="text-4xl font-bold mb-6">О компании</h2>
                   <p className="text-lg mb-6 opacity-90">
-                    Мы работаем на туристическом рынке более 15 лет и предлагаем лучшие туры по всему миру.
+                    Мы организуем экспедиции на Камчатку более 15 лет. Знаем каждый вулкан и тропу в этом уникальном крае.
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
@@ -179,12 +179,12 @@ const BottomSections = ({ reviews }: BottomSectionsProps) => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-                  <Icon name="Plane" size={24} />
+                  <Icon name="Mountain" size={24} />
                 </div>
-                <span className="text-2xl font-bold">ТурМир</span>
+                <span className="text-2xl font-bold">Дикая Камчатка</span>
               </div>
               <p className="text-white/80 text-sm">
-                Ваш надёжный партнёр в мире путешествий
+                Экспедиции в самое сердце дикой природы
               </p>
             </div>
             <div>
