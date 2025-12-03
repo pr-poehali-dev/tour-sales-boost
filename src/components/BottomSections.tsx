@@ -181,7 +181,7 @@ const BottomSections = ({ reviews }: BottomSectionsProps) => {
                 <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
                   <Icon name="Mountain" size={24} />
                 </div>
-                <span className="text-2xl font-bold">Дикая Камчатка</span>
+                <span className="text-2xl font-bold">Kamchatka Adventures</span>
               </div>
               <p className="text-white/80 text-sm">
                 Экспедиции в самое сердце дикой природы

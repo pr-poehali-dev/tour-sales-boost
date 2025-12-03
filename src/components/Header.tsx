@@ -11,7 +11,7 @@ const Header = () => {
               <Icon name="Mountain" className="text-white" size={24} />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Дикая Камчатка
+              Kamchatka Adventures
             </span>
           </div>
           <nav className="hidden md:flex gap-6">
